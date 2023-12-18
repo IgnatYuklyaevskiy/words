@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.topWords, .dragDrop, .form {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.main__content {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.dragDrop {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.inputContainer {
+    display: flex; 
+    gap: 10px;
+}
+
+.words_input {
+    width: 200px;
+}
+
+.output {
+    margin-top: 30px;
+    width: 200px;
+    border: 1px solid red;
+    min-height: 30px;
+}
+
+.topWords {
+    display: flex;
+    gap: 10px;
+}
+
+.topWords > p {
+    padding: 10px;
+    background-color: rgb(193, 193, 193);
+}
+
+.wordDrag {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgb(225, 225, 225);
+}
